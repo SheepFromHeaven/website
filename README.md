@@ -54,9 +54,15 @@ The generated static files in the `out/` directory can be deployed to:
 
 ## Customization
 
-### Update Medium Posts
+### Medium Posts Integration
 
-Edit `src/lib/medium.ts` to fetch from your actual Medium RSS feed or update the sample posts.
+The site automatically fetches posts from Medium using the rss2json API. The feed URL is configured in `src/lib/medium.ts`:
+
+```typescript
+const MEDIUM_RSS_URL = 'https://medium.com/@sheepfromheaven/feed';
+```
+
+To use your own Medium account, update the username in this URL.
 
 ### Update Coaching Information
 
