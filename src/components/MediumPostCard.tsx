@@ -1,6 +1,5 @@
 import { MediumPost } from '@/types/medium';
 import Image from 'next/image';
-import Link from 'next/link';
 
 interface MediumPostCardProps {
   post: MediumPost;
@@ -22,8 +21,10 @@ export default function MediumPostCard({ post }: MediumPostCardProps) {
   const cleanDescription = stripImages(post.description);
 
   return (
-    <Link 
-      href={`/posts/${post.guid}`}
+    <a 
+      href={post.link}
+      target="_blank"
+      rel="noopener noreferrer"
       className="block"
     >
       <article className="bg-white dark:bg-zinc-900 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 h-full flex flex-col cursor-pointer">
@@ -45,7 +46,7 @@ export default function MediumPostCard({ post }: MediumPostCardProps) {
             {post.title}
           </h3>
           <div 
-            className="mt-3 text-zinc-600 dark:text-zinc-400 line-clamp-3 flex-grow prose prose-sm max-w-none prose-p:my-2"
+            className="mt-3 text-zinc-600 dark:text-zinc-400 line-clamp-3 flex-grow [&_p]:my-1 [&_p]:leading-relaxed"
             dangerouslySetInnerHTML={{ __html: cleanDescription }}
           />
           <div className="mt-4 pt-4 border-t border-zinc-200 dark:border-zinc-700">
@@ -55,6 +56,6 @@ export default function MediumPostCard({ post }: MediumPostCardProps) {
           </div>
         </div>
       </article>
-    </Link>
+    </a>
   );
 }
