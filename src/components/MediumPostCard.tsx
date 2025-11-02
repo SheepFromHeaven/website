@@ -5,9 +5,14 @@ interface MediumPostCardProps {
   post: MediumPost;
 }
 
-// Helper function to strip images from HTML content
-function stripImages(html: string): string {
-  return html.replace(/<img[^>]*>/g, '');
+// Helper function to convert HTML to plain text and merge all paragraphs
+function htmlToPlainText(html: string): string {
+  // Strip all HTML tags and get plain text
+  let text = html.replace(/<[^>]*>/g, ' ');
+  // Replace multiple spaces with single space
+  text = text.replace(/\s+/g, ' ');
+  // Trim whitespace
+  return text.trim();
 }
 
 export default function MediumPostCard({ post }: MediumPostCardProps) {
@@ -17,8 +22,8 @@ export default function MediumPostCard({ post }: MediumPostCardProps) {
     day: 'numeric'
   });
 
-  // Remove images from description
-  const cleanDescription = stripImages(post.description);
+  // Convert HTML description to plain text for preview
+  const plainTextDescription = htmlToPlainText(post.description);
 
   return (
     <a 
@@ -45,10 +50,9 @@ export default function MediumPostCard({ post }: MediumPostCardProps) {
           <h3 className="mt-2 text-xl font-semibold text-zinc-900 dark:text-zinc-50 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
             {post.title}
           </h3>
-          <div 
-            className="mt-3 text-zinc-600 dark:text-zinc-400 line-clamp-3 flex-grow [&_p]:my-1 [&_p]:leading-relaxed"
-            dangerouslySetInnerHTML={{ __html: cleanDescription }}
-          />
+          <p className="mt-3 text-zinc-600 dark:text-zinc-400 line-clamp-3 flex-grow">
+            {plainTextDescription}
+          </p>
           <div className="mt-4 pt-4 border-t border-zinc-200 dark:border-zinc-700">
             <span className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
               Read more →
