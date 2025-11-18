@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navigation from "@/components/Navigation";
 
 export const metadata: Metadata = {
   title: "Personal Website",
@@ -12,12 +11,5 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className="antialiased bg-zinc-50 dark:bg-black font-sans">
-        <Navigation />
-        {children}
-      </body>
-    </html>
-  );
+  return children;
 }

@@ -1,0 +1,99 @@
+{
+  "navigation": {
+    "home": "Home",
+    "coaching": "Coaching",
+    "imprint": "Imprint",
+    "brand": "Marc Emmanuel"
+  },
+  "home": {
+    "title": "Welcome to My Blog",
+    "subtitle": "Exploring technology, development, and sharing insights from my journey.",
+    "noPosts": "No posts available yet. Check back soon!",
+    "about": {
+      "title": "About Me",
+      "description": "I'm a passionate technology leader and software engineer with years of experience in building teams and delivering innovative solutions. Through my blog, I share insights on leadership, development practices, and the evolving tech landscape. When I'm not coding or leading teams, I help others grow through personalized coaching sessions."
+    },
+    "coachingCTA": {
+      "title": "Level Up Your Career",
+      "description": "Are you looking to advance your technical skills, navigate your career path, or tackle challenging projects? I offer personalized coaching sessions to help you achieve your professional goals.",
+      "button": "Explore Coaching Services",
+      "features": {
+        "experience": "Years of hands-on experience",
+        "personalized": "Tailored to your specific needs",
+        "practical": "Real-world solutions and guidance"
+      }
+    },
+    "blogSection": "Latest Articles"
+  },
+  "coaching": {
+    "title": "Coaching Services",
+    "intro": "I offer personalized coaching sessions to help you level up your skills, overcome challenges, and achieve your professional goals.",
+    "whatIOffer": {
+      "title": "What I Offer",
+      "items": {
+        "mentoring": "One-on-one mentoring sessions tailored to your needs",
+        "career": "Career guidance and technical skill development",
+        "codeReview": "Code reviews and architecture discussions",
+        "planning": "Project planning and best practices consultation"
+      }
+    },
+    "sessionOptions": {
+      "title": "Session Options",
+      "single": {
+        "title": "Single Session",
+        "price": "120€",
+        "description": "60-minute focused coaching session",
+        "features": {
+          "video": "Video call via Zoom/Google Meet",
+          "recording": "Session recording available",
+          "summary": "Follow-up email summary"
+        }
+      },
+      "package": {
+        "title": "Package (4 Sessions)",
+        "price": "400€",
+        "description": "Four 60-minute sessions (save 80€)",
+        "badge": "Popular",
+        "features": {
+          "video": "Video call via Zoom/Google Meet",
+          "recordings": "Session recordings available",
+          "support": "Email support between sessions",
+          "tracking": "Progress tracking and goals"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Book a free 15-minute intro call to discuss your goals and see if we're a good fit.",
+      "bookButton": "Book Free Intro Call",
+      "emailButton": "Contact via Email",
+      "linkedinButton": "Connect on LinkedIn",
+      "question": "Have questions? Feel free to reach out at"
+    }
+  },
+  "imprint": {
+    "title": "Imprint",
+    "subtitle": "Legal Information",
+    "responsiblePerson": {
+      "title": "Information according to § 5 TMG",
+      "name": "Marc Emmanuel",
+      "email": "the.marc.emmanuel@gmail.com"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "Email",
+      "linkedin": "LinkedIn"
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "liability": {
+        "title": "Liability for Contents",
+        "text": "As a service provider, we are responsible for our own content on these pages in accordance with general legislation. However, we are not obligated to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information under general law remain unaffected."
+      },
+      "links": {
+        "title": "Liability for Links",
+        "text": "Our website contains links to external third-party websites over whose content we have no influence. Therefore, we cannot accept any liability for this third-party content. The respective provider or operator of the pages is always responsible for the content of the linked pages."
+      }
+    }
+  }
+}
