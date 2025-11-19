@@ -1,0 +1,99 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "coaching": "Coaching",
+    "imprint": "Impressum",
+    "brand": "Marc Emmanuel"
+  },
+  "home": {
+    "title": "Willkommen auf meinem Blog",
+    "subtitle": "Technologie erkunden, Entwicklung vorantreiben und Einblicke aus meiner Reise teilen.",
+    "noPosts": "Noch keine Beiträge verfügbar. Schau bald wieder vorbei!",
+    "about": {
+      "title": "Über mich",
+      "description": "Ich bin ein leidenschaftlicher Technology Leader und Software-Entwickler mit jahrelanger Erfahrung im Aufbau von Teams und der Lieferung innovativer Lösungen. In meinem Blog teile ich Einblicke zu Leadership, Entwicklungspraktiken und der sich entwickelnden Tech-Landschaft. Wenn ich nicht gerade programmiere oder Teams leite, helfe ich anderen durch personalisierte Coaching-Sessions zu wachsen."
+    },
+    "coachingCTA": {
+      "title": "Bring deine Karriere auf das nächste Level",
+      "description": "Möchtest du deine technischen Fähigkeiten verbessern, deinen Karriereweg navigieren oder herausfordernde Projekte meistern? Ich biete personalisierte Coaching-Sessions an, um dich bei der Erreichung deiner beruflichen Ziele zu unterstützen.",
+      "button": "Coaching-Angebote entdecken",
+      "features": {
+        "experience": "Jahrelange praktische Erfahrung",
+        "personalized": "Auf deine Bedürfnisse zugeschnitten",
+        "practical": "Praxisnahe Lösungen und Beratung"
+      }
+    },
+    "blogSection": "Neueste Artikel"
+  },
+  "coaching": {
+    "title": "Coaching-Angebote",
+    "intro": "Ich biete personalisierte Coaching-Sessions an, um dir zu helfen, deine Fähigkeiten zu verbessern, Herausforderungen zu meistern und deine beruflichen Ziele zu erreichen.",
+    "whatIOffer": {
+      "title": "Was ich anbiete",
+      "items": {
+        "mentoring": "Individuelle Mentoring-Sessions, zugeschnitten auf deine Bedürfnisse",
+        "career": "Karriereberatung und Entwicklung technischer Fähigkeiten",
+        "codeReview": "Code-Reviews und Architektur-Diskussionen",
+        "planning": "Projektplanung und Best-Practice-Beratung"
+      }
+    },
+    "sessionOptions": {
+      "title": "Session-Optionen",
+      "single": {
+        "title": "Einzelsession",
+        "price": "120€",
+        "description": "60-minütige fokussierte Coaching-Session",
+        "features": {
+          "video": "Videoanruf via Zoom/Google Meet",
+          "recording": "Session-Aufzeichnung verfügbar",
+          "summary": "Follow-up E-Mail-Zusammenfassung"
+        }
+      },
+      "package": {
+        "title": "Paket (4 Sessions)",
+        "price": "400€",
+        "description": "Vier 60-minütige Sessions (80€ sparen)",
+        "badge": "Beliebt",
+        "features": {
+          "video": "Videoanruf via Zoom/Google Meet",
+          "recordings": "Session-Aufzeichnungen verfügbar",
+          "support": "E-Mail-Support zwischen den Sessions",
+          "tracking": "Fortschrittsverfolgung und Ziele"
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit loszulegen?",
+      "description": "Buche ein kostenloses 15-minütiges Kennenlerngespräch, um deine Ziele zu besprechen und zu sehen, ob wir zusammenpassen.",
+      "bookButton": "Kostenloses Kennenlerngespräch buchen",
+      "emailButton": "Per E-Mail kontaktieren",
+      "linkedinButton": "Auf LinkedIn vernetzen",
+      "question": "Hast du Fragen? Kontaktiere mich gerne unter"
+    }
+  },
+  "imprint": {
+    "title": "Impressum",
+    "subtitle": "Rechtliche Informationen",
+    "responsiblePerson": {
+      "title": "Angaben gemäß § 5 TMG",
+      "name": "Marc Emmanuel",
+      "email": "the.marc.emmanuel@gmail.com"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "email": "E-Mail",
+      "linkedin": "LinkedIn"
+    },
+    "disclaimer": {
+      "title": "Haftungsausschluss",
+      "liability": {
+        "title": "Haftung für Inhalte",
+        "text": "Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt."
+      },
+      "links": {
+        "title": "Haftung für Links",
+        "text": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich."
+      }
+    }
+  }
+}
