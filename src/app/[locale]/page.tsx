@@ -2,6 +2,7 @@ import { getMediumPosts } from '@/lib/medium';
 import MediumPostCard from '@/components/MediumPostCard';
 import {getTranslations, setRequestLocale} from 'next-intl/server';
 import Image from 'next/image';
+import HomeCTA from '@/components/HomeCTA';
 
 export default async function Home({
   params,
@@ -78,12 +79,7 @@ export default async function Home({
               <span>{t('coachingCTA.features.practical')}</span>
             </div>
           </div>
-          <a
-            href={`/${locale}/coaching`}
-            className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
-          >
-            {t('coachingCTA.button')}
-          </a>
+          <HomeCTA locale={locale} buttonText={t('coachingCTA.button')} />
         </div>
       </div>
 

@@ -1,5 +1,6 @@
 import {getTranslations, setRequestLocale} from 'next-intl/server';
 import Image from 'next/image';
+import CoachingCTAs, { CoachingContactCTAs } from '@/components/CoachingCTAs';
 
 export default async function CoachingPage({
   params,
@@ -10,6 +11,15 @@ export default async function CoachingPage({
   setRequestLocale(locale);
   
   const t = await getTranslations({locale, namespace: 'coaching'});
+
+  const ctaTranslations = {
+    ctaTitle: t('cta.title'),
+    ctaDescription: t('cta.description'),
+    bookButton: t('cta.bookButton'),
+    question: t('cta.question'),
+    emailButton: t('cta.emailButton'),
+    linkedinButton: t('cta.linkedinButton'),
+  };
 
   return (
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -34,22 +44,7 @@ export default async function CoachingPage({
         </div>
 
         {/* Prominent CTA - Book Free Intro Call */}
-        <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-xl p-8 mb-8 text-white text-center">
-          <h2 className="text-3xl font-bold mb-4">
-            {t('cta.title')}
-          </h2>
-          <p className="text-xl mb-6 text-blue-50">
-            {t('cta.description')}
-          </p>
-          <a
-            href="https://calendar.app.google/yJkQ1RtSoHdGHZQK8"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-white text-blue-600 px-10 py-4 rounded-lg text-lg font-bold hover:bg-blue-50 transition-colors shadow-lg"
-          >
-            {t('cta.bookButton')}
-          </a>
-        </div>
+        <CoachingCTAs translations={ctaTranslations} />
 
         <div className="bg-white dark:bg-zinc-900 rounded-lg shadow-lg p-8 mb-8">
           <h2 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-50 mb-4">
@@ -128,27 +123,7 @@ export default async function CoachingPage({
           </div>
         </div>
 
-        <div className="bg-white dark:bg-zinc-900 rounded-lg shadow-lg p-8 text-center">
-          <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-50 mb-4">
-            {t('cta.question')}
-          </h2>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a
-              href="mailto:the.marc.emmanuel+website@gmail.com?subject=Coaching Session Booking"
-              className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors text-center"
-            >
-              {t('cta.emailButton')}
-            </a>
-            <a
-              href="https://www.linkedin.com/in/marc-emmanuel/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-zinc-100 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-50 px-6 py-3 rounded-lg font-semibold hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors text-center"
-            >
-              {t('cta.linkedinButton')}
-            </a>
-          </div>
-        </div>
+        <CoachingContactCTAs translations={ctaTranslations} />
       </div>
     </main>
   );
