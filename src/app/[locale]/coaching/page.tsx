@@ -72,13 +72,13 @@ export default async function CoachingPage({
               <svg className="w-6 h-6 text-green-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              <span>{t('whatIOffer.items.codeReview')}</span>
+              <span>{t('whatIOffer.items.leadership')}</span>
             </li>
             <li className="flex items-start">
               <svg className="w-6 h-6 text-green-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              <span>{t('whatIOffer.items.planning')}</span>
+              <span>{t('whatIOffer.items.conflict')}</span>
             </li>
           </ul>
         </div>

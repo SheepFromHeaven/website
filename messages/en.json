@@ -27,14 +27,14 @@
   },
   "coaching": {
     "title": "Coaching Services",
-    "intro": "I offer personalized coaching sessions to help you level up your skills, overcome challenges, and achieve your professional goals.",
+    "intro": "I offer personalized coaching sessions in leadership, conflict resolution, and career development to help you overcome challenges and achieve your professional goals.",
     "whatIOffer": {
       "title": "What I Offer",
       "items": {
         "mentoring": "One-on-one mentoring sessions tailored to your needs",
         "career": "Career guidance and technical skill development",
-        "codeReview": "Code reviews and architecture discussions",
-        "planning": "Project planning and best practices consultation"
+        "leadership": "Leadership coaching to help you grow as a leader",
+        "conflict": "Conflict coaching to navigate difficult situations"
       }
     },
     "sessionOptions": {
@@ -44,7 +44,7 @@
         "price": "120€",
         "description": "60-minute focused coaching session",
         "features": {
-          "video": "Video call via Zoom/Google Meet",
+          "video": "Video call via Google Meet",
           "recording": "Session recording available",
           "summary": "Follow-up email summary"
         }
@@ -55,7 +55,7 @@
         "description": "Four 60-minute sessions (save 80€)",
         "badge": "Popular",
         "features": {
-          "video": "Video call via Zoom/Google Meet",
+          "video": "Video call via Google Meet",
           "recordings": "Session recordings available",
           "support": "Email support between sessions",
           "tracking": "Progress tracking and goals"

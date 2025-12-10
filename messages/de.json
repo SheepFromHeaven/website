@@ -27,14 +27,14 @@
   },
   "coaching": {
     "title": "Coaching-Angebote",
-    "intro": "Ich biete personalisierte Coaching-Sessions an, um dir zu helfen, deine Fähigkeiten zu verbessern, Herausforderungen zu meistern und deine beruflichen Ziele zu erreichen.",
+    "intro": "Ich biete personalisierte Coaching-Sessions in den Bereichen Leadership, Konfliktlösung und Karriereentwicklung an, um dir zu helfen, Herausforderungen zu meistern und deine beruflichen Ziele zu erreichen.",
     "whatIOffer": {
       "title": "Was ich anbiete",
       "items": {
         "mentoring": "Individuelle Mentoring-Sessions, zugeschnitten auf deine Bedürfnisse",
         "career": "Karriereberatung und Entwicklung technischer Fähigkeiten",
-        "codeReview": "Code-Reviews und Architektur-Diskussionen",
-        "planning": "Projektplanung und Best-Practice-Beratung"
+        "leadership": "Leadership-Coaching, um dich als Führungskraft weiterzuentwickeln",
+        "conflict": "Konflikt-Coaching zur Bewältigung schwieriger Situationen"
       }
     },
     "sessionOptions": {
@@ -44,7 +44,7 @@
         "price": "120€",
         "description": "60-minütige fokussierte Coaching-Session",
         "features": {
-          "video": "Videoanruf via Zoom/Google Meet",
+          "video": "Videoanruf via Google Meet",
           "recording": "Session-Aufzeichnung verfügbar",
           "summary": "Follow-up E-Mail-Zusammenfassung"
         }
@@ -55,7 +55,7 @@
         "description": "Vier 60-minütige Sessions (80€ sparen)",
         "badge": "Beliebt",
         "features": {
-          "video": "Videoanruf via Zoom/Google Meet",
+          "video": "Videoanruf via Google Meet",
           "recordings": "Session-Aufzeichnungen verfügbar",
           "support": "E-Mail-Support zwischen den Sessions",
           "tracking": "Fortschrittsverfolgung und Ziele"
