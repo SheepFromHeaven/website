@@ -1,6 +1,21 @@
 import {getTranslations, setRequestLocale} from 'next-intl/server';
 import Image from 'next/image';
 import CoachingCTAs, { CoachingContactCTAs } from '@/components/CoachingCTAs';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{locale: string}>;
+}): Promise<Metadata> {
+  const {locale} = await params;
+  const t = await getTranslations({locale, namespace: 'coaching'});
+  
+  return {
+    title: t('meta.title'),
+    description: t('meta.description'),
+  };
+}
 
 export default async function CoachingPage({
   params,

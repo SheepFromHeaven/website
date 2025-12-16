@@ -26,6 +26,10 @@
     "blogSection": "Neueste Artikel"
   },
   "coaching": {
+    "meta": {
+      "title": "Tech-Leadership & Konflikt-Coaching | Marc Emmanuel",
+      "description": "Personalisierte Coaching-Sessions in Tech-Leadership, Konfliktlösung und Karriereentwicklung. Buche jetzt ein kostenloses Kennenlerngespräch."
+    },
     "title": "Coaching-Angebote",
     "intro": "Ich biete personalisierte Coaching-Sessions in den Bereichen Leadership, Konfliktlösung und Karriereentwicklung an, um dir zu helfen, Herausforderungen zu meistern und deine beruflichen Ziele zu erreichen.",
     "whatIOffer": {

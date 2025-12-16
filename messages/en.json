@@ -26,6 +26,10 @@
     "blogSection": "Latest Articles"
   },
   "coaching": {
+    "meta": {
+      "title": "Tech-Leadership & Conflict Coaching | Marc Emmanuel",
+      "description": "Personalized coaching sessions in tech-leadership, conflict resolution, and career development. Book a free intro call today."
+    },
     "title": "Coaching Services",
     "intro": "I offer personalized coaching sessions in leadership, conflict resolution, and career development to help you overcome challenges and achieve your professional goals.",
     "whatIOffer": {
