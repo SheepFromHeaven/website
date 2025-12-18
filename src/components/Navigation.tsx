@@ -38,6 +38,12 @@ export default function Navigation() {
             >
               {t('imprint')}
             </Link>
+            <Link 
+              href="/privacy" 
+              className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 px-3 py-2 text-sm font-medium transition-colors"
+            >
+              {t('privacy')}
+            </Link>
             <LanguageSwitcher />
           </div>
         </div>

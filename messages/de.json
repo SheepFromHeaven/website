@@ -3,6 +3,7 @@
     "home": "Startseite",
     "coaching": "Coaching",
     "imprint": "Impressum",
+    "privacy": "Datenschutz",
     "brand": "Marc Emmanuel"
   },
   "home": {
@@ -98,6 +99,64 @@
         "title": "Haftung für Links",
         "text": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich."
       }
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Datenschutzerklärung | Marc Emmanuel",
+      "description": "Informationen zum Datenschutz und zur Verarbeitung personenbezogener Daten auf dieser Website."
+    },
+    "title": "Datenschutzerklärung",
+    "subtitle": "Informationen zum Datenschutz",
+    "section1": {
+      "title": "Datenschutz",
+      "intro": "Wir behandeln deine personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung. Die Nutzung unserer Angebote ist in der Regel ohne Angabe personenbezogener Daten möglich. Für die Nutzung einzelner Dienste können sich hierfür abweichende Regelungen ergeben, die nachstehend gesondert erläutert werden. Soweit auf unseren Webseiten oder Apps personenbezogene Daten erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne deine ausdrückliche Zustimmung nicht an Dritte weitergegeben. Beim Aufrufen unserer Webseiten oder Apps erheben und speichern wir automatisch Informationen in so genannten Server-Log Files, die an uns übermittelt werden. Dies sind:",
+      "data": {
+        "timestamp": "Zeitpunkt",
+        "method": "HTTP Methode",
+        "url": "URL",
+        "protocol": "HTTP Protokoll",
+        "responseCode": "HTTP Response Code",
+        "bytes": "Anzahl geschriebene Bytes",
+        "time": "Benötigte Zeit"
+      },
+      "closing": "Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zu prüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden."
+    },
+    "section2": {
+      "title": "Personenbezogene Daten",
+      "content": "Der Begriff der personenbezogenen Daten ist im Bundesdatenschutzgesetz definiert. Dabei handelt es sich um Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person. Beispiele dafür sind deine Email Adresse."
+    },
+    "section3": {
+      "title": "Verarbeiten von personenbezogenen Daten",
+      "content": "Wir erheben, verarbeiten und nutzen personenbezogene Daten nur, soweit sie für die Begründung, inhaltliche Ausgestaltung oder Änderung des Rechtsverhältnisses erforderlich sind (Bestandsdaten). Personenbezogene Daten über die Inanspruchnahme unserer Dienstleistungen (Nutzungsdaten) erheben, verarbeiten und nutzen wir nur, soweit dies erforderlich ist, um dir die Inanspruchnahme des Dienstes zu ermöglichen."
+    },
+    "section4": {
+      "title": "Registrierung auf den Webseiten und Apps",
+      "content": "Du kannst dich auf unseren Webseiten und Apps registrieren, um zusätzliche Funktionen zu nutzen. Dazu können z.B. folgende Daten erhoben werden: E-Mail-Adresse. Die dazu eingegebenen Daten verwenden wir nur zum Zwecke der Nutzung des jeweiligen Angebotes oder Dienstes, für den du dich registriert hast. Für wichtige Änderungen etwa beim Angebotsumfang oder bei technisch notwendigen Änderungen nutzen wir die bei der Registrierung angegebene E-Mail-Adresse, um dich auf diesem Wege zu informieren."
+    },
+    "section5": {
+      "title": "Datenübermittlung bei Vertragsschluss für Dienstleistungen und digitalen Inhalten",
+      "content": "Wir übermitteln personenbezogene Daten an Dritte nur dann, wenn dies im Rahmen der Vertragsabwicklung notwendig ist, etwa an das mit der Zahlungsabwicklung beauftragte Kreditinstitut. Eine weitergehende Übermittlung der Daten erfolgt nicht bzw. nur dann, wenn du der Übermittlung ausdrücklich zugestimmt hast. Eine Weitergabe deiner Daten an Dritte ohne ausdrückliche Einwilligung etwa zu Zwecken der Werbung erfolgt nicht."
+    },
+    "section6": {
+      "title": "Datensicherheit",
+      "content": "Wir ergreifen sämtliche vertretbaren technischen und organisatorischen Maßnahmen, um die sichere Erhebung, Verarbeitung und Nutzung deiner Daten zu ermöglichen. Um einen unbefugten Zugang oder eine unbefugte Offenlegung zu verhindern, sowie die Richtigkeit der Daten und die berechtigte Nutzung der Daten sicherzustellen, haben wir entsprechende technische und organisatorische Verfahren eingerichtet, um die Daten, die wir online erfragen, zu sichern und zu schützen. Wir weisen dennoch darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich."
+    },
+    "section7": {
+      "title": "Keine Haftung für andere Webseiten",
+      "content": "Unsere Webseiten und Apps können Links zu Webseiten anderer Anbieter enthalten. Diese haben in der Regel eigene Datenschutzerklärungen. Wir bitten dich, dich dort über den jeweils gültigen Datenschutz zu informieren."
+    },
+    "section8": {
+      "title": "Änderung der Datenschutzbestimmungen",
+      "content": "Wir behalten uns das Recht vor, diese Datenschutzbestimmungen jederzeit unter Beachtung der geltenden Datenschutzgesetze zu ändern."
+    },
+    "section9": {
+      "title": "Auskunft, Löschung, Sperrung",
+      "content": "Du hast jederzeit das Recht auf unentgeltliche Auskunft über deine gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Hierzu, sowie zu weiteren Fragen zum Thema personenbezogene Daten, kannst du dich jederzeit unter der im Impressum angegebenen Adresse an uns wenden."
+    },
+    "section10": {
+      "title": "Widerspruch Werbe-E-Mails",
+      "content": "Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Wir behalten uns ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor."
     }
   }
 }

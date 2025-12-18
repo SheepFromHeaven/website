@@ -3,6 +3,7 @@
     "home": "Home",
     "coaching": "Coaching",
     "imprint": "Imprint",
+    "privacy": "Privacy",
     "brand": "Marc Emmanuel"
   },
   "home": {
@@ -98,6 +99,64 @@
         "title": "Liability for Links",
         "text": "Our website contains links to external third-party websites over whose content we have no influence. Therefore, we cannot accept any liability for this third-party content. The respective provider or operator of the pages is always responsible for the content of the linked pages."
       }
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy | Marc Emmanuel",
+      "description": "Information about data protection and the processing of personal data on this website."
+    },
+    "title": "Privacy Policy",
+    "subtitle": "Information about Data Protection",
+    "section1": {
+      "title": "Data Protection",
+      "intro": "We treat your personal data confidentially and in accordance with legal data protection regulations and this privacy policy. In general, it is possible to use our services without providing personal data. For the use of individual services, different regulations may apply, which are explained separately below. Insofar as personal data is collected on our websites or apps, this is always done on a voluntary basis, where possible. This data will not be passed on to third parties without your express consent. When you access our websites or apps, we automatically collect and store information in so-called server log files that are transmitted to us. These are:",
+      "data": {
+        "timestamp": "Timestamp",
+        "method": "HTTP Method",
+        "url": "URL",
+        "protocol": "HTTP Protocol",
+        "responseCode": "HTTP Response Code",
+        "bytes": "Number of bytes written",
+        "time": "Time required"
+      },
+      "closing": "This data is not combined with other data sources. We reserve the right to subsequently check this data if we become aware of specific indications of illegal use."
+    },
+    "section2": {
+      "title": "Personal Data",
+      "content": "The term personal data is defined in the Federal Data Protection Act. It refers to individual details about personal or factual circumstances of a specific or identifiable natural person. Examples include your email address."
+    },
+    "section3": {
+      "title": "Processing of Personal Data",
+      "content": "We collect, process and use personal data only insofar as it is necessary for the establishment, content design or modification of the legal relationship (inventory data). We collect, process and use personal data about the use of our services (usage data) only to the extent necessary to enable you to use the service."
+    },
+    "section4": {
+      "title": "Registration on Websites and Apps",
+      "content": "You can register on our websites and apps to use additional features. The following data may be collected: email address. We use the data entered for this purpose only for the purpose of using the respective offer or service for which you have registered. For important changes, such as changes in the scope of the offer or technically necessary changes, we use the email address provided during registration to inform you in this way."
+    },
+    "section5": {
+      "title": "Data Transmission for Services and Digital Content",
+      "content": "We only transmit personal data to third parties if this is necessary for contract processing, for example to the credit institution commissioned with payment processing. Data will not be transmitted further or only if you have expressly consented to the transmission. Your data will not be passed on to third parties without your express consent, for example for advertising purposes."
+    },
+    "section6": {
+      "title": "Data Security",
+      "content": "We take all reasonable technical and organizational measures to enable the secure collection, processing and use of your data. In order to prevent unauthorized access or unauthorized disclosure, as well as to ensure the accuracy of the data and the legitimate use of the data, we have implemented appropriate technical and organizational procedures to secure and protect the data we collect online. However, we point out that data transmission on the Internet (e.g. when communicating by email) may have security gaps. Complete protection of data against access by third parties is not possible."
+    },
+    "section7": {
+      "title": "No Liability for Other Websites",
+      "content": "Our websites and apps may contain links to websites of other providers. These usually have their own privacy policies. We ask you to inform yourself there about the respective valid data protection."
+    },
+    "section8": {
+      "title": "Changes to Privacy Policy",
+      "content": "We reserve the right to change this privacy policy at any time in compliance with applicable data protection laws."
+    },
+    "section9": {
+      "title": "Information, Deletion, Blocking",
+      "content": "You have the right at any time to free information about your stored personal data, its origin and recipients and the purpose of data processing, as well as a right to correction, blocking or deletion of this data. For this, as well as for further questions on the subject of personal data, you can contact us at any time at the address given in the imprint."
+    },
+    "section10": {
+      "title": "Objection to Advertising Emails",
+      "content": "We hereby object to the use of contact data published as part of the imprint obligation for sending unsolicited advertising and information materials. We expressly reserve the right to take legal action in the event of unsolicited advertising information being sent, such as spam emails."
     }
   }
 }
