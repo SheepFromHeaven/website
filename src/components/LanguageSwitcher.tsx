@@ -1,19 +1,29 @@
 'use client';
 
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from '@/i18n/routing';
 import { useLocale } from 'next-intl';
+import { useParams } from 'next/navigation';
 
 export default function LanguageSwitcher() {
   const pathname = usePathname();
+  const router = useRouter();
   const currentLocale = useLocale();
+  const params = useParams();
 
-  // Get the path without locale prefix
-  const pathWithoutLocale = pathname.replace(/^\/(en|de)/, '') || '';
+  const handleLocaleChange = (locale: string) => {
+    router.replace(
+      // @ts-expect-error -- TypeScript will validate that only known `params`
+      // are used in combination with a given `pathname`. Since the two will
+      // always match for the current route, we can skip runtime checks.
+      {pathname, params},
+      {locale}
+    );
+  };
 
   return (
     <div className="flex space-x-2">
-      <a
-        href={`/en${pathWithoutLocale}`}
+      <button
+        onClick={() => handleLocaleChange('en')}
         className={`px-3 py-1 text-sm font-medium rounded transition-colors ${
           currentLocale === 'en'
             ? 'bg-blue-600 text-white'
@@ -22,9 +32,9 @@ export default function LanguageSwitcher() {
         aria-label="Switch to English"
       >
         EN
-      </a>
-      <a
-        href={`/de${pathWithoutLocale}`}
+      </button>
+      <button
+        onClick={() => handleLocaleChange('de')}
         className={`px-3 py-1 text-sm font-medium rounded transition-colors ${
           currentLocale === 'de'
             ? 'bg-blue-600 text-white'
@@ -33,7 +43,7 @@ export default function LanguageSwitcher() {
         aria-label="Switch to German"
       >
         DE
-      </a>
+      </button>
     </div>
   );
 }
