@@ -62,8 +62,6 @@ export default function TrackedLink({
     <Link
       href={href}
       className={className}
-      target={target}
-      rel={rel}
       onClick={handleClick}
     >
       {children}
